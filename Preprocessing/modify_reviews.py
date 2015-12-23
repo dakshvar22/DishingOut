@@ -9,7 +9,7 @@ import re
 import time
 
 dishes = []
-with open('dishes.csv') as f:
+with open('../data/dishes.csv') as f:
 	data = csv.reader(f)
 	for row in data:
 		try:
